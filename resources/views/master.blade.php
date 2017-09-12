@@ -7,8 +7,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/bootstrap/css/bootstrap.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/bootstrap/css/bootstrap-theme.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('assets/css/style.css')}}">
+	
+	 <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.6/angular.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="{{ asset('assets/js/route.js')}}">
 </head>
-<body>
+<body ng-app="main-App">
 <main>
 	<div class="container-fluid">
 		<ng-view></ng-view>

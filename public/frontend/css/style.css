@@ -219,3 +219,13 @@ height:auto !important;
 
 	.table-responsive td:before { content: attr(data-title); }
 }
+
+.control-group input.ng-invalid:focus{
+	border-color: #c00000;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+.control-group  p.help-block{
+	color: #c00000;
+}

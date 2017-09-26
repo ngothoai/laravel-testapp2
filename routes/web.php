@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('master');
 });
+// Route::get('/users/{id?}','IndexController@index');
+// Route::post('/users','IndexController@store');
+// Route::delete('/users/{$id}','IndexController@destroy');
+// Route::resource('users','ControllerUser' ,['except' => ['create', 'store', 'update', 'destroy']]);
+Route::resource('/users', 'IndexController',['except' => [ 'update']]);
